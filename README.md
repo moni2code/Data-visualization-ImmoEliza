@@ -8,8 +8,8 @@ This project is a part of Becode.org AI Bootcamp course. Our task was to preproc
 
 ## Installation
 ![python](https://img.shields.io/badge/python-3x-blue) ![sklearn](https://img.shields.io/badge/sklearn-green) ![pandas](https://img.shields.io/badge/pandas-purple) 
-To run the code and reproduce the analysis, follow these steps:
 
+To run the code and reproduce the analysis, follow these steps:
 * Clone the repository from [Here](https://github.com/moni2code/challenge-regression)
 * Set up a Python environment with the necessary dependencies or install the required packages using ```pip install -m requirements.txt ```.
 * Open the Jupyter Notebook that contains the model building code.
@@ -19,6 +19,7 @@ The notebooks inside the model building directory contains the code for model bu
 
 ## Folder Structure
 
+```
 └── challenge-regression/
     ├── data/
     │   └── house_details_v1.csv
@@ -37,6 +38,7 @@ The notebooks inside the model building directory contains the code for model bu
     └── requirements.txt
     └── .gitignore
     └── README.md
+```
 
 
 ## Contributors
