@@ -29,8 +29,6 @@ The notebooks inside the model building directory contains the code for model bu
     │   └── README.md (Data Analysis part)
     │   └── test_notebook.ipynb
     ├── model-building/
-    │   └── 1make_pipeline_using_get_dummies.ipynb
-    │   └── 2make_pipeline_onehotencoder.ipynb
     │   └── linear_model_using_pipeline.ipynb
     │   └── non_linear_model_using_pipeline.ipynb
     ├── output/
