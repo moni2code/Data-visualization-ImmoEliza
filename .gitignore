@@ -1,1 +1,3 @@
 model_building_venv/
+.DS_Store/
+/models/pipe.pkl/
