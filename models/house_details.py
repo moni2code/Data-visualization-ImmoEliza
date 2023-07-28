@@ -1,15 +1,20 @@
 from pydantic import BaseModel
 
 # Class with required values for the prediction
-'''['postalcode', 'subtype', 'region', 'district', 'province', 'price',
-       'bedroom_count', 'habitable_surface', 'terrace', 'facades']'''
+'''['postalcode', 'subtype', 'price', 'bedroom_count', 'habitable_surface',
+       'kitchen_type', 'furnished', 'fireplace', 'terrace', 'garden',
+       'garden_surface', 'facades', 'swimmingpool', 'condition']'''
 class HouseDetails(BaseModel):
     postalcode : str
     subtype : str
-    region : str
-    district : str
-    province : str
-    bedroom_count: float
-    habitable_surface:float
-    terrace: bool
-    facades: float
+    bedroom_count : float
+    habitable_surface : float
+    kitchen_type : str
+    furnished : int
+    fireplace :int
+    terrace: int
+    garden: int
+    garden_surface : float
+    facades : float
+    swimmingpool : int
+    condition : str
